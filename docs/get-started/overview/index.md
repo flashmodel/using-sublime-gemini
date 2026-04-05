@@ -1,17 +1,15 @@
 # Overview
 
-Gemini CLI for Sublime Text provides an agentic interface to the Google Gemini AI directly within your editor. Unlike traditional chatbots, this integration allows Gemini to act as a co-developer that can read files, execute commands, and search the web to help you build software more efficiently.
+Google's `gemini-cli` is a powerful, interactive command-line agent designed specifically for software engineering tasks. It brings the advanced capabilities of Gemini AI directly into your development workflow. As an autonomous co-developer, it can intelligently read files, execute shell commands, search the web, and analyze your entire codebase. Its primary use cases include debugging complex code issues, writing comprehensive tests, orchestrating large-scale refactors, generating documentation, and exploring unfamiliar codebases. By leveraging built-in tools like robust grep searching and surgical file editing, it helps you build software more safely and efficiently.
 
-By leveraging the `@google/gemini-cli` tool, this plugin brings advanced AI capabilities—like context-aware code generation and automated task execution—into the familiar Sublime Text environment.
+## Using Gemini CLI
 
-## Key Features
+While `gemini-cli` is highly effective as a standalone tool in the terminal, you can also harness its full potential directly through your code editor.
 
-- **Agentic Interface**: Gemini can actively interact with your workspace by reading files, listing directories, and even executing shell commands (with your permission).
-- **Direct Sublime Integration**: Interact via a specialized chat view, command palette, and context menus.
-- **Context-Aware**: Easily provide specific files or code selections to Gemini using `@filename` mentions.
-- **Privacy First**: Data is only sent when you explicitly mention files or when the agent requests permission to read something.
-- **Seamless Diff Workflow**: Review proposed code changes in a unified diff format and apply them with a single click.
+Gemini CLI for Sublime Text seamlessly integrates these agentic features into your editor environment. Unlike traditional chatbots, this integration allows Gemini to act directly within your workspace without leaving your editor. By the `@google/gemini-cli` tool, this plugin brings advanced AI capabilities—like context-aware code generation and automated task execution—into the familiar Sublime Text interface.
+
+![Overview](../../assets/images/overview.png)
 
 ## How it Works
 
-The plugin acts as a client that spawns and communicates with the `gemini` command-line tool over standard I/O streams using JSON. This ensures that the heavy lifting is handled by the CLI, while Sublime Text remains responsive and provides a rich UI for interaction.
+The plugin acts as a client that communicates with the `gemini` command-line tool. This ensures that the heavy lifting is handled by the CLI, while Sublime Text remains responsive and provides a rich UI for interaction.

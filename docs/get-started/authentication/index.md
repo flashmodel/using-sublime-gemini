@@ -24,11 +24,17 @@ If you prefer using a static API key:
    }
    ```
 
+![Settings menu](../../assets/images/settings.png)
+
 ## Google Vertex AI (Enterprise)
 
 For enterprise users on Google Cloud Vertex AI, you can configure your project details in the `env` section of your settings:
 
 1. Ensure you have authenticated via the Google Cloud CLI: `gcloud auth application-default login`.
+
+```
+gcloud auth application-default login
+```
 2. Update your `GeminiCLI.sublime-settings`:
    ```json
    {

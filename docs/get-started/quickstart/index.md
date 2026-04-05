@@ -8,12 +8,16 @@ Ready to start your first interaction with Gemini? Follow these steps to get up 
 2. Search for **`Gemini: Start Chat`** and press `Enter`.
 3. A new chat view will open with a `gemini-chat` tab.
 
+![Start Chat](../../assets/images/start-chat.png)
+
 ## Send a Message
 
-1. Type a question or instruction at the bottom of the view.
+1. Type a question or instruction at the bottom of the view prefix with `❯ `.
    - Example: *"Explain the structure of the current project."*
 2. Press `Ctrl+Enter` (macOS: `Cmd+Enter`) to send.
 3. Gemini will begin "thinking" and eventually respond.
+
+![Send Prompt Message](../../assets/images/type-message.png)
 
 ## Interact with Files
 

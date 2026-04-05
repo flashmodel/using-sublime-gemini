@@ -1,35 +1,48 @@
 # Installation
 
-To use this plugin, you must install both the **Gemini CLI tool** and the **Sublime Text package**.
+To use this tool, you must install both the **Gemini CLI tool** and the **Sublime Text package**.
 
 ## Install Gemini CLI
 
-The plugin relies on the Google Gemini CLI. Ensure you have Node.js installed, then run:
+### System Requirements
+Before installing, ensure your system meets the minimum requirements:
+- **Operating System:** macOS 15+, Windows 11, or Ubuntu 20.04+
+- **Runtime:** Node.js 20.0.0+
 
-```bash
-npm install -g @google/gemini-cli
-```
+### Installation Methods
 
 **Requirement:** gemini-cli version `0.34.0` or higher is required.
 
-The plugin automatically detects CLI installation across multiple environments, including **Homebrew**, **npm-global**, **Yarn**, and common local binary directories.
+#### Global Installation (Recommended)
+You can install the CLI globally using your preferred package manager:
 
-## Install GeminiCLI Plugin
+*   **via npm:**
+    ```bash
+    npm install -g @google/gemini-cli
+    ```
+*   **via Homebrew (macOS/Linux):**
+    ```bash
+    brew install gemini-cli
+    ```
+*   **via MacPorts (macOS):**
+    ```bash
+    sudo port install gemini-cli
+    ```
 
-### Via Package Control (Recommended)
-The easiest way to install the plugin is through **Package Control**:
+## Install GeminiCLI in Sublime Text
+
+[Via Package Control](https://packagecontrol.io/packages/GeminiCLI) (Recommended)
+
+![Command Palette](../../assets/images/commandpallete.png)
+
+The easiest way to install Gemini SublimeText is through **Package Control**:
 1. Open the command palette (`Cmd+Shift+P` on macOS, `Ctrl+Shift+P` on Windows/Linux).
 2. Type `Package Control: Install Package` and press `Enter`.
 3. Search for `GeminiCLI` and press `Enter`.
 
-### Manual Installation
-If you prefer to install from source:
-1. Open Sublime Text and navigate to `Preferences` -> `Browse Packages...`.
-2. Clone the repository into that directory:
-   ```bash
-   git clone https://github.com/flashmodel/gemini-st GeminiCLI
-   ```
-3. Restart Sublime Text.
+![Package Control](../../assets/images/package-control.png)
+
+![Install Gemini](../../assets/images/install.png)
 
 ## Configuration
 
