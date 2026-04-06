@@ -7,18 +7,18 @@ plugins:
   - jekyll-remote-theme
 navigation:
   - text: Get Started with Gemini CLI
-    url: /
+    url: ./
   - text: overview
-    url: /get-started/overview/
+    url: get-started/overview/
   - text: installation
-    url: /get-started/installation/
+    url: get-started/installation/
   - text: authentication
-    url: /get-started/authentication/
+    url: get-started/authentication/
   - text: quickstart
-    url: /get-started/quickstart/
+    url: get-started/quickstart/
   - text: basic usage
-    url: /basic-usage/
+    url: basic-usage/
   - text: context menu
-    url: /context-menu/
+    url: context-menu/
   - text: command palette
-    url: /command-palette/
+    url: command-palette/
