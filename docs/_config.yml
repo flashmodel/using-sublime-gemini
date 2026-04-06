@@ -1,5 +1,7 @@
 title: A Sublime Dive into Gemini CLI
 description: Master Gemini CLI using Sublime Text
+url: "https://flashmodel.github.io"
+baseurl: "/sublime-gemini-book"
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
