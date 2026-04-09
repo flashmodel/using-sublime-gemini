@@ -27,5 +27,5 @@ A 5-minute guide to opening your first chat, sending messages, and interacting w
 ### Further Reading
 
 - [**Basic Usage**](basic-usage/) – Learn the core commands and chat interaction workflow.
-- [**Context Menu**](context-menu/) – Master file and sidebar integration to provide rich context to the AI.
+- [**Workspace and Context**](context-menu/) – Master file and sidebar integration to provide rich context to the AI.
 - [**Command Palette**](command-palette/) – Use the command palette for keyboard-driven control and configuration.
